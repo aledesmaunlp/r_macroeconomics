@@ -1,0 +1,67 @@
+# =============================================
+# 1. DATOS CRUDOS Y PROCESADOS (PESADOS)
+# =============================================
+data/raw/
+data/interim/
+data/processed/
+output/
+cache/
+
+# =============================================
+# 2. BASES DE DATOS Y ARCHIVOS BINARIOS GRANDES
+# =============================================
+*.sqlite
+*.duckdb
+*.db
+*.dta
+*.csv
+*.xlsx
+*.xls
+*.sav
+*.rds
+*.Rds
+
+# =============================================
+# 3. ARCHIVOS COMPRIMIDOS
+# =============================================
+*.zip
+*.7z
+*.rar
+*.tar.gz
+*.tgz
+
+# =============================================
+# 4. BASURA DE R Y RSTUDIO
+# =============================================
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+.Rds
+*.Rproj.user
+
+# =============================================
+# 5. CARPETAS ESPECÍFICAS DE TU PROYECTO (PESADAS)
+# =============================================
+**/BACI/
+**/bases/
+**/base/
+**/resultados/
+**/data/
+
+# =============================================
+# 6. SALIDAS RENDERIZADAS (HTML, PDF, DOCX)
+# =============================================
+*.html
+*.pdf
+*.docx
+
+# =============================================
+# 7. ARCHIVOS DE SISTEMA Y EDITORES
+# =============================================
+.vscode/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
